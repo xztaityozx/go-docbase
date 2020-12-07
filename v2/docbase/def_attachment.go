@@ -11,4 +11,4 @@ type Attachment struct {
 	CreatedAt time.Time    `json:"created_at"`
 }
 
-type AttachmentID int64
+type AttachmentID string
